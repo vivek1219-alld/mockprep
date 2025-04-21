@@ -4,7 +4,7 @@ import path from "path";
 
 export default defineConfig({
   root: path.resolve(__dirname, "client"), // ✅ base folder
-  base: './',
+  base: '/',
   plugins: [react()],
   build: {
     outDir: path.resolve(__dirname, "dist"), // ✅ this is what Vercel uses
